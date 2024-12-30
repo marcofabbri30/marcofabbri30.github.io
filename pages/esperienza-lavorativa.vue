@@ -6,7 +6,7 @@
             <div v-for="(item,index) in events">            
                 <Card :data-aos="getAosAnimation(index)" class="mt-10">
                     <template #title>
-                            <h2 class="text-2xl m-0 p-0">{{ item.job }}</h2>                        
+                            <h2 class="text-2xl m-0 p-0">{{ item.job }}</h2>
                         </template>
                         <template #subtitle>
                             <h3 class="text-xl mb-2">{{ item.company }}</h3>
